@@ -9,7 +9,9 @@
 # File name: diy-part1.sh
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
-git clone https://op.supes.top /packages/mipsel_24kc
+
+src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc
+
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
