@@ -10,7 +10,7 @@
 # Description: OpenWrt DIY script part 1 (Before Update feeds)
 #
 
-src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc
+#src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc
 
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
@@ -18,3 +18,5 @@ src/gz openwrt_kiddin9 https://op.supes.top/packages/mipsel_24kc
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
+
+echo 'src-git packages https://op.supes.top/packagesc' >>feeds.conf.default
